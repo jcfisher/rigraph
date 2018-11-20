@@ -86,7 +86,7 @@ is_connected <- function(graph, mode=c("weak", "strong")) {
 #' 
 #' @aliases decompose.graph
 #' @param graph The original graph.
-#' @param mode Character constant giving the type of the components, wither
+#' @param mode Character constant giving the type of the components, either
 #' \code{weak} for weakly connected components or \code{strong} for strongly
 #' connected components.
 #' @param max.comps The maximum number of components to return. The first
